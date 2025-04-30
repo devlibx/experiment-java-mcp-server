@@ -82,6 +82,21 @@ mvn spring-boot:run
 
 The application will start on port 8080 by default (configurable in `application.properties`).
 
+## ⚙️ Configuring MCP in IDE Tools
+
+To use this MCP server with AI assistants in IDE tools like Cursor or Cline:
+
+1. Open your IDE's settings for AI assistant configuration
+2. Look for MCP or Model Context Protocol settings
+3. Add a new MCP server with the following SSE endpoint:
+   ```
+   http://localhost:8089/sse
+   ```
+4. Save the settings and restart the AI assistant if necessary
+5. The weather tool should now be available to your AI assistant
+
+Note: Make sure the port (8089) matches the port configured in your `application.properties` file.
+
 ## 🔧 Using the MCP Inspector
 
 The MCP Inspector is a tool that allows you to test and debug your MCP server. To use it:
