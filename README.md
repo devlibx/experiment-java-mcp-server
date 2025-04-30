@@ -99,7 +99,7 @@ Note: Make sure the port (8089) matches the port configured in your `application
 
 ## 🔧 Using the MCP Inspector
 
-The MCP Inspector is a tool that allows you to test and debug your MCP server. To use it:
+The MCP Inspector is a tool that allows you to test and debug your MCP server (If you want to debug MCP server). To use it:
 
 1. Install and run the MCP Inspector:
    ```bash
